@@ -1,0 +1,78 @@
+/* Reset or Normalize CSS */
+/* Adapted from Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) */
+
+/* Box sizing rules */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Remove default margin */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure {
+    margin: 0;
+}
+
+/* Remove default padding */
+figure, p, blockquote, pre, dl, dd, ol, ul {
+    padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove default font styles */
+html, body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Remove default background and border on images */
+img {
+    border-style: none;
+    background: none;
+}
+
+/* Remove default vertical alignment for inline elements */
+img, svg, video, canvas, audio, iframe, embed, object {
+    vertical-align: middle;
+}
+
+/* Remove default button and input styles */
+button, input, select, textarea {
+    margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Reset form elements */
+button, input, select, textarea {
+    font-family: inherit;
+}
+
+/* Remove default button styles */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+/* Remove default outline on focused elements */
+:focus {
+    outline: 0;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
